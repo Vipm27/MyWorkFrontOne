@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задачник</title>
+    <link rel = "stylesheet" href = "./styles/main.css">
+    <script src="https://kit.fontawesome.com/67e5409c20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="app-title">Задачник</h1>
+        
+        <form class="js-form">
+          <input autofocus type="text" aria-label="Добавить новую задачу" placeholder="Поесть пиццы" class="js-todo-input">
+          <input type="button" id="addBtn" value="Добавить"> 
+        </form>
+        
+        <ul class="todo-list js-todo-list"></ul>
+        <div class="empty-warning">
+          <h2 class="empty-warning-title">Добавь свою первую задачу!</h2>
+       </div>
+      </div>
+
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
